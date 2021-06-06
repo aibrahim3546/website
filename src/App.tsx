@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Provider } from 'react-redux';
 import { DefaultTheme, ThemeProvider } from 'styled-components';
 import { COLORS, FONTS, SPACING } from './constants';
@@ -20,21 +20,14 @@ const theme: DefaultTheme = {
   },
 };
 
-const App: React.FC = () => {
-  useEffect(() => {
-    const loaderEl = document.getElementById('loader');
-    loaderEl?.remove(); // remove root loader from index.html
-  }, []);
-
-  return (
-    <Provider store={store}>
-      <ThemeProvider theme={theme}>
-        <div className="App">
-          <Router />
-        </div>
-      </ThemeProvider>
-    </Provider>
-  );
-};
+const App: React.FC = () => (
+  <Provider store={store}>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <Router />
+      </div>
+    </ThemeProvider>
+  </Provider>
+);
 
 export default App;

@@ -14,7 +14,7 @@ export const COLORS = {
 };
 
 export const FONTS = {
-  xs: '14px',
+  xs: '16px',
   sm: '18px',
   md: '27px',
   lg: '36px',

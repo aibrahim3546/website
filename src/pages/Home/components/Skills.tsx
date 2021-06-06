@@ -74,7 +74,7 @@ const length = JSON.parse(JSON.stringify(Array(allSkills.length / 3))) as Array<
 const Skills: React.FC = () => (
   <>
     {length.map((_, i) => (
-      <ContainerDiv>
+      <ContainerDiv key={Math.random()}>
         {allSkills.slice(i * 3, (i + 1) * 3).map((skill) => (
           <div className="skill-box" key={skill.name}>
             <img className="skill-logo" alt={skill.name} src={skill.logo} />

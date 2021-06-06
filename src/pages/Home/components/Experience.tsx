@@ -2,6 +2,26 @@ import React from 'react';
 import styled from 'styled-components';
 import { SPACING } from '../../../constants';
 
+const Circle = styled.div`
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  background-color: ${({ theme }) => theme.colors.primary};
+`;
+
+const VerticalLine = styled.div`
+  width: 10px;
+  height: 100%;
+  position: relative;
+  top: -2px;
+  z-index: 1;
+  margin: auto;
+  background-color: ${({ theme }) => theme.colors.secondary};
+`;
+
 const ContainerDiv = styled.div`
   display: flex;
 
@@ -26,26 +46,13 @@ const ContainerDiv = styled.div`
     padding-left: ${({ theme }) => theme.spacing.lg};
     padding-bottom: ${({ theme }) => theme.spacing.xl};
   }
-`;
 
-const Circle = styled.div`
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
-  position: relative;
-  z-index: 2;
-  margin: auto;
-  background-color: ${({ theme }) => theme.colors.primary};
-`;
-
-const VerticalLine = styled.div`
-  width: 10px;
-  height: 100%;
-  position: relative;
-  top: -2px;
-  z-index: 1;
-  margin: auto;
-  background-color: ${({ theme }) => theme.colors.secondary};
+  :last-child {
+    ${VerticalLine} {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
 `;
 
 const experiences = [

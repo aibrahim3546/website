@@ -19,7 +19,7 @@ const ContainerDiv = styled.div`
   margin: auto;
 
   @media screen and (max-width: ${BREAKPOINTS.sm}) {
-    padding: 0 ${({ theme }) => theme.spacing.lg};
+    padding: 0 ${({ theme }) => theme.spacing.xl};
   }
 `;
 
@@ -52,6 +52,7 @@ const HeaderDiv = styled.div`
 
     @media screen and (max-width: ${BREAKPOINTS.sm}) {
       margin-top: ${({ theme }) => theme.spacing.xl};
+      padding-left: 0;
     }
 
     p {
