@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter,
+  HashRouter,
   Switch,
   Route,
 } from 'react-router-dom';
@@ -13,7 +13,7 @@ import Footer from './components/Footer/Footer';
 import HomePage from './pages/Home/HomePage';
 
 const Router: React.FC = () => (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter basename="/">
     <div>
       <Navbar />
       <div style={{ minHeight: '100%', marginBottom: 160 }}>
@@ -23,7 +23,7 @@ const Router: React.FC = () => (
       </div>
       <Footer />
     </div>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default Router;
