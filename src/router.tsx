@@ -13,7 +13,7 @@ import Footer from './components/Footer/Footer';
 import HomePage from './pages/Home/HomePage';
 
 const Router: React.FC = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div>
       <Navbar />
       <div style={{ minHeight: '100%', marginBottom: 160 }}>
