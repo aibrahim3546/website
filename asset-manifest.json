@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.e8355b9b.chunk.css",
+    "main.js": "/website/static/js/main.2ee4c3f1.chunk.js",
+    "main.js.map": "/website/static/js/main.2ee4c3f1.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.6e5e0559.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.6e5e0559.js.map",
+    "static/js/2.ace1b3e4.chunk.js": "/website/static/js/2.ace1b3e4.chunk.js",
+    "static/js/2.ace1b3e4.chunk.js.map": "/website/static/js/2.ace1b3e4.chunk.js.map",
+    "static/js/3.1988dbb7.chunk.js": "/website/static/js/3.1988dbb7.chunk.js",
+    "static/js/3.1988dbb7.chunk.js.map": "/website/static/js/3.1988dbb7.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/main.e8355b9b.chunk.css.map": "/website/static/css/main.e8355b9b.chunk.css.map",
+    "static/js/2.ace1b3e4.chunk.js.LICENSE.txt": "/website/static/js/2.ace1b3e4.chunk.js.LICENSE.txt",
+    "static/media/github.c57108f5.svg": "/website/static/media/github.c57108f5.svg",
+    "static/media/javascript-logo.fd368917.svg": "/website/static/media/javascript-logo.fd368917.svg",
+    "static/media/laptop-2.801e9955.png": "/website/static/media/laptop-2.801e9955.png",
+    "static/media/linkedin.cfe4cd5b.svg": "/website/static/media/linkedin.cfe4cd5b.svg",
+    "static/media/mail.ec78b8e7.svg": "/website/static/media/mail.ec78b8e7.svg",
+    "static/media/menu.2add06cc.svg": "/website/static/media/menu.2add06cc.svg",
+    "static/media/ml-logo.cbde5d4b.png": "/website/static/media/ml-logo.cbde5d4b.png",
+    "static/media/mongodb-logo.38d0bd4e.svg": "/website/static/media/mongodb-logo.38d0bd4e.svg",
+    "static/media/mysql-logo.68764312.svg": "/website/static/media/mysql-logo.68764312.svg",
+    "static/media/nodejs-logo.dd47e26e.svg": "/website/static/media/nodejs-logo.dd47e26e.svg",
+    "static/media/react-logo.81dc574b.svg": "/website/static/media/react-logo.81dc574b.svg",
+    "static/media/redux-logo.8eb8e45c.svg": "/website/static/media/redux-logo.8eb8e45c.svg",
+    "static/media/rm-logo.f895472d.png": "/website/static/media/rm-logo.f895472d.png",
+    "static/media/tng-logo.769bdb41.svg": "/website/static/media/tng-logo.769bdb41.svg",
+    "static/media/twitter.6c3a6b9a.svg": "/website/static/media/twitter.6c3a6b9a.svg",
+    "static/media/typescript-logo.c82f7474.svg": "/website/static/media/typescript-logo.c82f7474.svg",
+    "static/media/vettons-logo.e272664b.svg": "/website/static/media/vettons-logo.e272664b.svg",
+    "static/media/vue-logo.f23980d4.svg": "/website/static/media/vue-logo.f23980d4.svg",
+    "static/media/x.ef1fe8ff.svg": "/website/static/media/x.ef1fe8ff.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e5e0559.js",
+    "static/js/2.ace1b3e4.chunk.js",
+    "static/css/main.e8355b9b.chunk.css",
+    "static/js/main.2ee4c3f1.chunk.js"
+  ]
+}
