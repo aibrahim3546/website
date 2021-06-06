@@ -3,7 +3,10 @@ import styled from 'styled-components';
 
 import { BREAKPOINTS } from '../../constants';
 
-import logo from '../../assets/images/logo-2.png';
+import logo100 from '../../assets/images/logo-100.png';
+import githubIcon from '../../assets/images/github.svg';
+import twitterIcon from '../../assets/images/twitter.svg';
+import linkedinIcon from '../../assets/images/linkedin.svg';
 
 const MenuButton = styled.button`
   background-color: #ffffff;
@@ -27,6 +30,7 @@ const MainContainerDiv = styled.div`
   left: 0;
   right: 0;
   width: 100%;
+  z-index: 999;
   background-color: ${({ theme }) => theme.colors.white};
   box-shadow: 0 1px 4px rgb(64 87 109 / 7%);
   padding: ${({ theme }) => theme.spacing.md};
@@ -40,39 +44,59 @@ const ContainerDiv = styled.div`
   margin: auto;
 
   .menu {
-    padding-left: ${({ theme }) => theme.spacing.lg};
+    display: flex;
+    padding-left: ${({ theme }) => theme.spacing.xl};
+    cursor: pointer;
 
     :last-child {
       ${MenuButton} {
         background-color: ${({ theme }) => theme.colors.primary};
         color: ${({ theme }) => theme.colors.white};
+        box-shadow: 0 3px 6px #00000029;
+        transition: ease-in 100ms;
+        :hover {
+          box-shadow: 0 1.5px 3px #00000029;
+        }
       }
     }
   }
 `;
 
-const Logo = styled.img`
-  width: 100px;
-`;
-
 const Navbar: React.FC = () => {
-  const navigations: string[] = ['Home', 'About', 'Contact', 'LinkedIn'];
+  const navigations = [{
+    name: 'twitter',
+    icon: twitterIcon,
+    link: 'https://twitter.com/aibrahim3546',
+  }, {
+    name: 'github',
+    icon: githubIcon,
+    link: 'https://github.com/aibrahim3546',
+  }, {
+    name: 'linkedin',
+    icon: linkedinIcon,
+    link: 'https://www.linkedin.com/in/aibrahim3546/',
+  }];
 
   return (
     <>
       <MainContainerDiv>
         <ContainerDiv>
-          <div>
-            <Logo src={logo} />
+          <div style={{ width: 100, display: 'flex' }}>
+            <img alt="logo" style={{ width: '100%' }} src={logo100} />
           </div>
           <div style={{ flex: 1 }} />
           {navigations.map((each) => (
-            <div className="menu" key={each}>
-              <MenuButton>
-                {each}
-              </MenuButton>
+            <div className="menu" key={each.name}>
+              <a href={each.link} target="_blank" rel="noreferrer">
+                <img alt={each.name} width={25} src={each.icon} />
+              </a>
             </div>
           ))}
+          <div className="menu">
+            <MenuButton>
+              Work with me
+            </MenuButton>
+          </div>
         </ContainerDiv>
       </MainContainerDiv>
       <div style={{ height: 80 }} />

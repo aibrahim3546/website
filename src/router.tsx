@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+import React from 'react';
 import {
   BrowserRouter,
   Switch,
@@ -6,22 +6,19 @@ import {
 } from 'react-router-dom';
 
 // Components
-import Spinner from './components/Loader/Spinner';
 import Navbar from './components/Navbar/Navbar';
 
 // Pages
-const HomePage = lazy(() => import('./pages/Home/HomePage'));
-const EditCounterPage = lazy(() => import('./pages/Counter/EditCounterPage'));
+import HomePage from './pages/Home/HomePage';
 
 const Router: React.FC = () => (
   <BrowserRouter>
-    <Suspense fallback={<Spinner />}>
+    <div>
       <Navbar />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/edit" component={EditCounterPage} />
       </Switch>
-    </Suspense>
+    </div>
   </BrowserRouter>
 );
 

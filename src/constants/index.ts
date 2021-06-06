@@ -12,3 +12,18 @@ export const COLORS = {
   black: '#000000',
   white: '#ffffff',
 };
+
+export const FONTS = {
+  xs: '14px',
+  sm: '18px',
+  md: '27px',
+  lg: '36px',
+};
+
+export const SPACING = {
+  sm: '4px',
+  md: '8px',
+  lg: '16px',
+  xl: '32px',
+  xxl: '56px',
+};

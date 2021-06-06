@@ -12,6 +12,7 @@ declare module 'styled-components' {
       white: string;
     };
     fonts: {
+      xs: string;
       sm: string;
       md: string;
       lg: string;
@@ -20,6 +21,8 @@ declare module 'styled-components' {
       sm: string;
       md: string;
       lg: string;
+      xl: string;
+      xxl: string;
     };
   }
 }

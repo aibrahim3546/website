@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Provider } from 'react-redux';
 import { DefaultTheme, ThemeProvider } from 'styled-components';
-import { COLORS } from './constants';
+import { COLORS, FONTS, SPACING } from './constants';
 
 import Router from './router';
 import store from './store';
@@ -10,20 +10,13 @@ const theme: DefaultTheme = {
   borderRadius: '4px',
   borderColor: '#cccccc',
   colors: {
-    primary: COLORS.primary,
-    secondary: COLORS.secondary,
-    black: COLORS.black,
-    white: COLORS.white,
+    ...COLORS,
   },
   fonts: {
-    sm: '18px',
-    md: '27px',
-    lg: '36px',
+    ...FONTS,
   },
   spacing: {
-    sm: '4px',
-    md: '8px',
-    lg: '16px',
+    ...SPACING,
   },
 };
 
