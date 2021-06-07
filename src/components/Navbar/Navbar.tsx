@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { BREAKPOINTS, FONTS, SPACING } from '../../constants';
 
-import logo100 from '../../assets/images/logo-100.png';
+import logo100 from '../../assets/images/logo-horizontal.svg';
 import githubIcon from '../../assets/images/github.svg';
 import twitterIcon from '../../assets/images/twitter.svg';
 import linkedinIcon from '../../assets/images/linkedin.svg';
