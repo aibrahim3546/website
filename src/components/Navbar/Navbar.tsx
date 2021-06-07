@@ -131,7 +131,7 @@ const Navbar: React.FC = () => {
     <ContactCardDiv>
       <a href="mailto: contact@ahmadibrahim.io">
         <div style={{ display: 'flex' }}>
-          <div>
+          <div style={{ display: 'grid' }}>
             <MailIcon style={{ width: FONTS.md, marginRight: SPACING.sm }} />
           </div>
           <div>
