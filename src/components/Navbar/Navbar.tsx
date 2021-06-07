@@ -129,10 +129,14 @@ const Navbar: React.FC = () => {
 
   const renderContactCard = () => isOpenContact && (
     <ContactCardDiv>
-      <a href="mailto: contact@ahmadibrahim.io" style={{ display: 'flex' }}>
-        <MailIcon style={{ width: FONTS.md, marginRight: SPACING.sm }} />
-        <div>
-          contact@ahmadibrahim.io
+      <a href="mailto: contact@ahmadibrahim.io">
+        <div style={{ display: 'flex' }}>
+          <div>
+            <MailIcon style={{ width: FONTS.md, marginRight: SPACING.sm }} />
+          </div>
+          <div>
+            contact@ahmadibrahim.io
+          </div>
         </div>
       </a>
     </ContactCardDiv>
@@ -148,8 +152,8 @@ const Navbar: React.FC = () => {
           <div style={{ flex: 1 }} />
           {navigations.map((each) => (
             <div className="menu" key={each.name}>
-              <a href={each.link} target="_blank" rel="noreferrer" style={{ display: 'flex' }}>
-                <img alt={each.name} width={25} src={each.icon} />
+              <a href={each.link} target="_blank" rel="noreferrer">
+                <img alt={each.name} width={25} style={{ display: 'flex' }} src={each.icon} />
               </a>
             </div>
           ))}
@@ -161,18 +165,20 @@ const Navbar: React.FC = () => {
           </div>
 
           <div className="hamburger">
-            {isOpenMenu
-              ? (
-                <XIcon
-                  onClick={() => {
-                    setIsOpenMenu(false);
-                    setIsOpenContact(false);
-                  }}
-                  style={{ width: 35 }}
-                />
-              ) : (
-                <MenuIcon onClick={() => { setIsOpenMenu(true); }} style={{ width: 35 }} />
-              )}
+            <div>
+              {isOpenMenu
+                ? (
+                  <XIcon
+                    onClick={() => {
+                      setIsOpenMenu(false);
+                      setIsOpenContact(false);
+                    }}
+                    style={{ width: 35 }}
+                  />
+                ) : (
+                  <MenuIcon onClick={() => { setIsOpenMenu(true); }} style={{ width: 35 }} />
+                )}
+            </div>
           </div>
         </ContainerDiv>
 

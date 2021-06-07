@@ -122,7 +122,7 @@ const HomePage: React.FC = () => (
         <div className="company-logo">
           {LOGOS.map((logo) => (
             <div className="logo-container" key={Math.random()}>
-              <a href={logo.link} target="_blank" rel="noreferrer">
+              <a href={logo.link} target="_blank" rel="noreferrer" style={{ width: '100%' }}>
                 <img alt="logo" style={{ width: '50%' }} src={logo.img} />
               </a>
             </div>
