@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e8355b9b.chunk.css",
-    "main.js": "/static/js/main.849000cb.chunk.js",
-    "main.js.map": "/static/js/main.849000cb.chunk.js.map",
+    "main.js": "/static/js/main.c9d43b24.chunk.js",
+    "main.js.map": "/static/js/main.c9d43b24.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eb9765bc.js",
     "runtime-main.js.map": "/static/js/runtime-main.eb9765bc.js.map",
     "static/js/2.13609298.chunk.js": "/static/js/2.13609298.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/javascript-logo.fd368917.svg": "/static/media/javascript-logo.fd368917.svg",
     "static/media/laptop-2.801e9955.png": "/static/media/laptop-2.801e9955.png",
     "static/media/linkedin.cfe4cd5b.svg": "/static/media/linkedin.cfe4cd5b.svg",
+    "static/media/logo-horizontal.4270fe6c.svg": "/static/media/logo-horizontal.4270fe6c.svg",
     "static/media/mail.ec78b8e7.svg": "/static/media/mail.ec78b8e7.svg",
     "static/media/menu.2add06cc.svg": "/static/media/menu.2add06cc.svg",
     "static/media/ml-logo.cbde5d4b.png": "/static/media/ml-logo.cbde5d4b.png",
@@ -36,6 +37,6 @@
     "static/js/runtime-main.eb9765bc.js",
     "static/js/2.13609298.chunk.js",
     "static/css/main.e8355b9b.chunk.css",
-    "static/js/main.849000cb.chunk.js"
+    "static/js/main.c9d43b24.chunk.js"
   ]
 }
