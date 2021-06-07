@@ -19,6 +19,7 @@ const ContainerDiv = styled.div`
   .skill-box {
     flex: 1;
     text-align: left;
+    padding-right: ${({ theme }) => theme.spacing.lg};
   }
 
   .skill-logo {
