@@ -44,10 +44,11 @@ const MainContainerDiv = styled.div`
     display: none;
   }
 
-  @media screen and (max-width: ${BREAKPOINTS.xs}) {
+  @media only screen and (max-width: ${BREAKPOINTS.xs}) {
     .mobile-view {
       display: block;
       margin-top: ${({ theme }) => theme.spacing.xl};
+      margin-bottom: ${({ theme }) => theme.spacing.md};
     }
   }
 `;
