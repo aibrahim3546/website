@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { BREAKPOINTS, FONTS, SPACING } from '../../constants';
 
-import logo100 from '../../assets/images/logo-horizontal.svg';
+import logoIcon from '../../assets/images/logo-horizontal.svg';
 import githubIcon from '../../assets/images/github.svg';
 import twitterIcon from '../../assets/images/twitter.svg';
 import linkedinIcon from '../../assets/images/linkedin.svg';
@@ -147,7 +147,9 @@ const Navbar: React.FC = () => {
       <MainContainerDiv>
         <ContainerDiv>
           <div className="logo" style={{ width: 100, display: 'flex' }}>
-            <img alt="logo" style={{ width: '100%' }} src={logo100} />
+            <div>
+              <img alt="logo" style={{ width: '100%' }} src={logoIcon} />
+            </div>
           </div>
           <div style={{ flex: 1 }} />
           {navigations.map((each) => (
