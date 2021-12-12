@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import Experience from './components/Experience';
 import Skills from './components/Skills';
+import Portfolio from './components/Portfolio';
 
 import { BREAKPOINTS, COLORS, SPACING } from '../../constants';
 
@@ -164,6 +165,17 @@ const HomePage: React.FC = () => (
         </TitleDiv>
 
         <Skills />
+      </div>
+    </ContainerDiv>
+
+    <ContainerDiv>
+      <div>
+        <TitleDiv>
+          Portfolio (Commercial Products)
+          <div className="line" />
+        </TitleDiv>
+
+        <Portfolio />
       </div>
     </ContainerDiv>
 
