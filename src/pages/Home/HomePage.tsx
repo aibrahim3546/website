@@ -111,7 +111,7 @@ const HomePage: React.FC = () => (
           <p>
             My name is Ahmad Ibrahim.
             <br />
-            3+ years experience as a Software Engineer.
+            4+ years experience as a Software Engineer.
             I am currently coding to make a living.
           </p>
         </div>
