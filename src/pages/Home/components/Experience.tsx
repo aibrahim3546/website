@@ -58,15 +58,16 @@ const ContainerDiv = styled.div`
 const experiences = [
   {
     companyName: 'MoneyLion ',
-    industry: 'FinTech - Banking',
+    industry: 'FinTech - Finance',
     position: 'Software Engineer',
     date: 'March 2021 - Present',
     points: [
-      'Collaborated with the team to design and structure and implement new architecture for upcoming and existing projects.',
-      'Worked alongside product owner and designers to revamp UI of existing projects.',
-      'Worked with the team to setup documentation for internal design system for developer reference.',
-      'Involve in weekly meeting to share ideas and improve the existing lifecyle for better outcome.',
-      'Involved in peer to peer code review on daily basis.',
+      'Finance App based in US',
+      'Introduced new architecture for frontend development',
+      'Developed UI framework (for internal use) according to our design system. Hosted using private GitHub packages.',
+      'Lead the initiative to refactor and improve existing and legacy system.',
+      'Worked on improving Developer Experience (DX) by enhancing the development workflow. Such as web preview for each pull request made.',
+      'Improved core web vitals for all of all of our web projects.',
     ],
   },
   {

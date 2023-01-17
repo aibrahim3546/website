@@ -3,28 +3,28 @@ import styled from 'styled-components';
 
 import wetixLogo from '../../../assets/images/wetix-logo.png';
 import moneylionLogo from '../../../assets/images/ml-logo.png';
-import vettonsLogo from '../../../assets/images/vettons-logo.svg';
+import tngLogo from '../../../assets/images/tng-logo.svg';
 
 import { BREAKPOINTS, SPACING } from '../../../constants';
 
 const PORTFOLIO = [{
   link: 'https://www.moneylion.com/',
   img: moneylionLogo,
-  name: 'MoneyLion (ReactJS)',
+  name: 'MoneyLion',
   description: 'https://www.moneylion.com/',
   points: ['Digital Bank', '> 7 million users and counting'],
 }, {
   link: 'https://www.wetix.my/',
   img: wetixLogo,
-  name: 'WeTix (ReactJS)',
+  name: 'WeTix',
   description: 'Available in MAE, Boost, WeChat, Presto & TnG e-wallet',
   points: ['Movie ticketing service', '> 50,000 users (as per March 2019)'],
 }, {
-  link: 'https://www.vettons.com/',
-  img: vettonsLogo,
-  name: 'Vettons App (React Native)',
+  link: 'https://www.touchngo.com.my/',
+  img: tngLogo,
+  name: "Touch 'n Go eWallet",
   description: 'Available in Play store and App store',
-  points: ['E-Commerce / Online Shopping', '> 50,000 downloads (as per Nov 2020)'],
+  points: ['E-Wallet', '> 10 million downloads'],
 }];
 
 const ContainerDiv = styled.div`
