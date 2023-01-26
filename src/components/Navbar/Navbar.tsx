@@ -8,6 +8,8 @@ import githubIcon from '../../assets/images/github.svg';
 import twitterIcon from '../../assets/images/twitter.svg';
 import linkedinIcon from '../../assets/images/linkedin.svg';
 
+import resumePdf from '../../assets/pdf/resume.pdf';
+
 import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg';
 import { ReactComponent as XIcon } from '../../assets/images/x.svg';
 import { ReactComponent as MailIcon } from '../../assets/images/mail.svg';
@@ -50,6 +52,10 @@ const MainContainerDiv = styled.div`
       margin-top: ${({ theme }) => theme.spacing.xl};
       margin-bottom: ${({ theme }) => theme.spacing.md};
     }
+  }
+
+  .pdf {
+    text-decoration: underline;
   }
 `;
 
@@ -152,6 +158,9 @@ const Navbar: React.FC = () => {
             </div>
           </div>
           <div style={{ flex: 1 }} />
+          <div className="menu pdf">
+            <a href={resumePdf} target="_blank" rel="noreferrer">Download My Resume</a>
+          </div>
           {navigations.map((each) => (
             <div className="menu" key={each.name}>
               <a href={each.link} target="_blank" rel="noreferrer">
@@ -199,6 +208,9 @@ const Navbar: React.FC = () => {
                   </div>
                 </a>
               ))}
+              <div className="menu pdf" style={{ padding: ' 12px 0' }}>
+                <a href={resumePdf} target="_blank" rel="noreferrer">Download My Resume</a>
+              </div>
               <div className="menu">
                 <MenuButton onClick={toggleIsOpenContact}>
                   Work with me
