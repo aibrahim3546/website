@@ -208,9 +208,9 @@ const Navbar: React.FC = () => {
                   </div>
                 </a>
               ))}
-              <div className="menu pdf" style={{ padding: ' 12px 0' }}>
-                <a href={resumePdf} target="_blank" rel="noreferrer">Download My Resume</a>
-              </div>
+              {/* <div className="menu pdf" style={{ padding: ' 12px 0' }}> */}
+              {/*  <a href={resumePdf} target="_blank" rel="noreferrer">Download My Resume</a> */}
+              {/* </div> */}
               <div className="menu">
                 <MenuButton onClick={toggleIsOpenContact}>
                   Work with me
