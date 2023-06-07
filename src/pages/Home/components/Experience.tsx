@@ -60,7 +60,7 @@ const experiences = [
     companyName: 'MoneyLion ',
     industry: 'FinTech - Finance',
     position: 'Software Engineer',
-    date: 'March 2021 - Present',
+    date: 'March 2021 - April 2023',
     points: [
       'Finance App based in US (went IPO last year in NYSE).',
       'Introduced new architecture for frontend development.',
