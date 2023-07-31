@@ -30,7 +30,7 @@ const Footer: React.FC = () => (
         #aibrahim3546
       </div>
       <div>
-        © copyrights Ahmad Ibrahim 2021
+        © copyrights Ahmad Ibrahim 2023
       </div>
     </ContainerDiv>
   </footer>

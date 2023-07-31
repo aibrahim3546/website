@@ -109,10 +109,11 @@ const HomePage: React.FC = () => (
         <div className="desc">
           <b>Hey there!</b>
           <p>
-            My name is Ahmad Ibrahim.
+            My name is Ibrahim.
             <br />
-            5+ years experience as a Software Engineer.
-            I am currently coding to make a living.
+            a dedicated Software Engineer with 5+ years of experience
+            {' '}
+            specializing in frontend development.
           </p>
         </div>
       </HeaderDiv>
@@ -140,19 +141,15 @@ const HomePage: React.FC = () => (
         </TitleDiv>
 
         <div>
-          A passionated developer who focus on
+          I am passionated about delivering exceptional user experiences through
           {' '}
-          writing quality code and delivering quality products.
+          clean, scalable code. Collaborative team player focused on crafting intuitive
           {' '}
-          I am someone who love to learn and explore new technologies.
+          interfaces that exceed customer expectations. Constantly learning and staying
           {' '}
-          I am currently enhancing my programming skills with the help of my team.
+          updated with the latest industry advancements. Ready to contribute innovative
           {' '}
-          I am a person who consistently develops myself and continue learning.
-          {' '}
-          I consistently set a new goal for myself and always give
-          {' '}
-          the best shot to achieve those goals.
+          ideas to your team and create world-class software.
         </div>
       </div>
     </ContainerDiv>
