@@ -10,6 +10,7 @@ import nodejsLogo from '../../../assets/images/nodejs-logo.svg';
 import mongodbLogo from '../../../assets/images/mongodb-logo.svg';
 import mysqlLogo from '../../../assets/images/mysql-logo.svg';
 import awsLogo from '../../../assets/images/aws-logo.png';
+import nextJsLogo from '../../../assets/images/nextjs.svg';
 import { BREAKPOINTS } from '../../../constants';
 
 const ContainerDiv = styled.div`
@@ -34,8 +35,12 @@ const ContainerDiv = styled.div`
 
 const allSkills = [
   {
-    name: 'React',
+    name: 'ReactJS',
     logo: reactLogo,
+  },
+  {
+    name: 'NextJS',
+    logo: nextJsLogo,
   },
   {
     name: 'React Native',
@@ -74,7 +79,6 @@ const allSkills = [
     logo: awsLogo,
   },
   {},
-  {},
 ];
 
 const length = JSON.parse(JSON.stringify(Array(allSkills.length / 3))) as Array<undefined>;
@@ -84,14 +88,14 @@ const Skills: React.FC = () => (
     {length.map((_, i) => (
       <ContainerDiv key={Math.random()}>
         {allSkills.slice(i * 3, (i + 1) * 3).map((skill) => (
-          skill.name && (
+          skill.name ? (
             <div className="skill-box" key={skill.name}>
               <img className="skill-logo" alt={skill.name} src={skill.logo} />
               <div>
                 {skill.name}
               </div>
             </div>
-          )
+          ) : <div className="skill-box" key={skill.name} />
         ))}
       </ContainerDiv>
     ))}
