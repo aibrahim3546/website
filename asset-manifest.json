@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e8355b9b.chunk.css",
-    "main.js": "/static/js/main.ab63ed66.chunk.js",
-    "main.js.map": "/static/js/main.ab63ed66.chunk.js.map",
+    "main.js": "/static/js/main.1b6a1ad1.chunk.js",
+    "main.js.map": "/static/js/main.1b6a1ad1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eb9765bc.js",
     "runtime-main.js.map": "/static/js/runtime-main.eb9765bc.js.map",
     "static/js/2.b43b43dd.chunk.js": "/static/js/2.b43b43dd.chunk.js",
@@ -22,6 +22,7 @@
     "static/media/ml-logo.cbde5d4b.png": "/static/media/ml-logo.cbde5d4b.png",
     "static/media/mongodb-logo.38d0bd4e.svg": "/static/media/mongodb-logo.38d0bd4e.svg",
     "static/media/mysql-logo.68764312.svg": "/static/media/mysql-logo.68764312.svg",
+    "static/media/nextjs.90580d29.svg": "/static/media/nextjs.90580d29.svg",
     "static/media/nodejs-logo.dd47e26e.svg": "/static/media/nodejs-logo.dd47e26e.svg",
     "static/media/react-logo.81dc574b.svg": "/static/media/react-logo.81dc574b.svg",
     "static/media/redux-logo.8eb8e45c.svg": "/static/media/redux-logo.8eb8e45c.svg",
@@ -37,6 +38,6 @@
     "static/js/runtime-main.eb9765bc.js",
     "static/js/2.b43b43dd.chunk.js",
     "static/css/main.e8355b9b.chunk.css",
-    "static/js/main.ab63ed66.chunk.js"
+    "static/js/main.1b6a1ad1.chunk.js"
   ]
 }
