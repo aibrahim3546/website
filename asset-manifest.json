@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e8355b9b.chunk.css",
-    "main.js": "/static/js/main.1b6a1ad1.chunk.js",
-    "main.js.map": "/static/js/main.1b6a1ad1.chunk.js.map",
+    "main.js": "/static/js/main.04fea94f.chunk.js",
+    "main.js.map": "/static/js/main.04fea94f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eb9765bc.js",
     "runtime-main.js.map": "/static/js/runtime-main.eb9765bc.js.map",
     "static/js/2.b43b43dd.chunk.js": "/static/js/2.b43b43dd.chunk.js",
@@ -30,14 +30,14 @@
     "static/media/tng-logo.769bdb41.svg": "/static/media/tng-logo.769bdb41.svg",
     "static/media/twitter.6c3a6b9a.svg": "/static/media/twitter.6c3a6b9a.svg",
     "static/media/typescript-logo.c82f7474.svg": "/static/media/typescript-logo.c82f7474.svg",
-    "static/media/vettons-logo.e272664b.svg": "/static/media/vettons-logo.e272664b.svg",
     "static/media/vue-logo.f23980d4.svg": "/static/media/vue-logo.f23980d4.svg",
-    "static/media/x.ef1fe8ff.svg": "/static/media/x.ef1fe8ff.svg"
+    "static/media/x.ef1fe8ff.svg": "/static/media/x.ef1fe8ff.svg",
+    "static/media/xsolla-logo.1cff0af6.png": "/static/media/xsolla-logo.1cff0af6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eb9765bc.js",
     "static/js/2.b43b43dd.chunk.js",
     "static/css/main.e8355b9b.chunk.css",
-    "static/js/main.1b6a1ad1.chunk.js"
+    "static/js/main.04fea94f.chunk.js"
   ]
 }
