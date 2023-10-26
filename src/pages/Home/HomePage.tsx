@@ -12,7 +12,7 @@ import revenueMonsterLogo from '../../assets/images/rm-logo.png';
 import wetixLogo from '../../assets/images/wetix-logo.png';
 import moneylionLogo from '../../assets/images/ml-logo.png';
 import tngLogo from '../../assets/images/tng-logo.svg';
-import vettonsLogo from '../../assets/images/vettons-logo.svg';
+import xsollaLogo from '../../assets/images/xsolla-logo.png';
 
 const ContainerDiv = styled.div`
   width: 100%;
@@ -89,14 +89,14 @@ const LOGOS = [{
   link: 'https://www.wetix.my/',
   img: wetixLogo,
 }, {
+  link: 'https://www.xsolla.com/',
+  img: xsollaLogo,
+}, {
   link: 'https://www.moneylion.com/',
   img: moneylionLogo,
 }, {
   link: 'https://www.tngdigital.com.my/',
   img: tngLogo,
-}, {
-  link: 'https://www.vettons.com/',
-  img: vettonsLogo,
 }];
 
 const HomePage: React.FC = () => (
@@ -111,7 +111,7 @@ const HomePage: React.FC = () => (
           <p>
             My name is Ibrahim.
             <br />
-            a dedicated Software Engineer with 5+ years of experience
+            a dedicated Software Engineer with 6+ years of experience
             {' '}
             specializing in frontend development.
           </p>
