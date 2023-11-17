@@ -135,13 +135,13 @@ const Navbar: React.FC = () => {
 
   const renderContactCard = () => isOpenContact && (
     <ContactCardDiv>
-      <a href="mailto: contact@ahmadibrahim.io">
+      <a href="mailto: aibrahim3546@gmail.com">
         <div style={{ display: 'flex' }}>
           <div style={{ display: 'grid' }}>
             <MailIcon style={{ width: FONTS.md, marginRight: SPACING.sm }} />
           </div>
           <div>
-            contact@ahmadibrahim.io
+            aibrahim3546@gmail.com
           </div>
         </div>
       </a>
